@@ -66,7 +66,7 @@ properties:
     example: 'pc_q4dbxom5jbgudnjzjpz7j2z6uq'
   marketplace:
     allOf:
-      - $ref: '#/components/schemas/MarketplaceData'
+      - $ref: '#/components/schemas/MarketplaceAuth'
   customer:
     type: object
     description: The customer's details
@@ -146,13 +146,6 @@ properties:
       - p24
       - eps
       - multibanco
-      - alipay_hk
-      - alipay_cn
-      - gcash
-      - dana
-      - kakaopay
-      - truemoney
-      - tng
     example:
       - card
   products:
