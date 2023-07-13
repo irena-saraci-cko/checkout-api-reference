@@ -2,6 +2,7 @@
 
 | Date       | Description of change                                                                                                   |
 |------------|-------------------------------------------------------------------------------------------------------------------------|
+| 2023/03/14 | Added the available `product_type` options for `tamara` payment method                                                  |
 | 2023/07/10 | Remove `Beta` tag from Financial Actions API                                                                              |
 | 2023/07/05 | Remove deprecated `instruments` endpoint from Platforms API                                                                                          |
 | 2023/07/04 | Add `currency` property to `TransferSource`                                                                             |
